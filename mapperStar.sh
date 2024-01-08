@@ -20,4 +20,4 @@ mkdir ex5
 cd ex5
 
 #To map with star
-STAR --runThreadN 16 --genomeDir /scratch/course/2023w300106/arizaaranguren/day1/ex4/ncbi_dataset/data/GCF_932526225.1/jaNemVect1.1_STAR --readFIlesIn /scratch/course/2023w300106/arizaaranguren/day1/ex4.2/SRR24348396/SRR24348396_1.fastq /scratch/course/2023w300106/arizaaranguren/day1/ex4.2/SRR24348396/SRR24348396_2.fastq --outSAMtype BAM SortedByCoordinate --twopassMode Basic --outSAMstrandField intronMotif --outFileNamePrefix SRR24348396
+STAR --runThreadN 16 --genomeDir /scratch/course/2023w300106/arizaaranguren/day1/ex4/ncbi_dataset/data/GCF_932526225.1/jaNemVect1.1_STAR --readFilesIn /scratch/course/2023w300106/arizaaranguren/day1/ex4.2/SRR24348396/SRR24348396_1.fastq /scratch/course/2023w300106/arizaaranguren/day1/ex4.2/SRR24348396/SRR24348396_2.fastq --outSAMtype BAM SortedByCoordinate --twopassMode Basic --outSAMstrandField intronMotif --outFileNamePrefix SRR24348396
