@@ -1,14 +1,15 @@
-#for running mapping with Star in the cluster is nammed mapperStar.sh
+
 #!/bin/bash
 #
-#SBATCH --job-name=spades
-#SBATCH --mail-type=BEGIN,END,TIME_LIMIT_50,TIME_LIMIT_80,TIME_LIMIT
+#SBATCH --job-name=starTest
+#SBATCH --nodes=1
 #SBATCH --cpus-per-task=16
-#SBATCH --mem=3000M
-#SBATCH --time=2-24:00:00
+#SBATCH --mem=16G
+#SBATCH --time=10:00:00
 #SBATCH --partition=basic
 #SBATCH --output=/scratch/course/2023w300106/arizaaranguren/day1/star.log
 #SBATCH --error=/scratch/course/2023w300106/arizaaranguren/day1/star.err
+
 
 #loading modules
 module load star
