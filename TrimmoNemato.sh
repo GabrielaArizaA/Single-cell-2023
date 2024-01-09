@@ -21,7 +21,7 @@ trimmomatic PE -threads 8 \
 /scratch/course/2023w300106/arizaaranguren/day1/ex4.2/SRR24348396/SRR24348396_1.fastq \
 /scratch/course/2023w300106/arizaaranguren/day1/ex4.2/SRR24348396/SRR24348396_2.fastq \
 /scratch/course/2023w300106/arizaaranguren/day2/trimming/SRR24348396_R1.qc.fastq \
-/scratch/course/2023w300106/arizaaranguren/day2/trimming/SRR24348396_S1.qc.fastq \ 
+/scratch/course/2023w300106/arizaaranguren/day2/trimming/SRR24348396_S1.qc.fastq \
 /scratch/course/2023w300106/arizaaranguren/day2/trimming/SRR24348396_R2.qc.fastq \
 /scratch/course/2023w300106/arizaaranguren/day2/trimming/SRR24348396_S2.qc.fastq \
 ILLUMINACLIP:/scratch/course/2023w300106/arizaaranguren/day2/trimming/adapters.fa:2:30:10 \
