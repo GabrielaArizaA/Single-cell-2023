@@ -14,4 +14,4 @@ module load stringtie
 module list
 
 #Running stringtie
-stringtie /scratch/course/2023w300106/BAMS/*.bam -l NemVecv1 -o nemAnnotation.gtf -p 6 -m 230 -f 0.02 -g 60
+stringtie /scratch/course/2023w300106/BAMS/*.bam -l NemVecv1 -o nemAnnotation.gtf -p 6 -u -m 230 -f 0.02 -g 60
