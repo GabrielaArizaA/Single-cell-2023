@@ -19,3 +19,16 @@ stringtie.sh = contains the command line for stringtie to obtain the annotation.
 
 
 augustus.sh = contains the command line for runnign augustus with Chr2
+
+
+subreads = script for running the featuresCounts command form the package subreads for generation fo the matrix with the counts of the genes
+
+
+R_Studio_counts.R = script in R for analysing the results obtained in subreads (featureCounts command)
+
+
+R_Studio_summary.R = First script in R for analysing the summary obtained in subreads (featureCounts command)
+
+
+Rplot-15Jan.pdf = Plot generated in Rstudio, boxplot + violin plot of the read counts per gene (TPM) of each library 
+
