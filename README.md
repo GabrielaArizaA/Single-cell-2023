@@ -30,5 +30,14 @@ R_Studio_counts.R = script in R for analysing the results obtained in subreads (
 R_Studio_summary.R = First script in R for analysing the summary obtained in subreads (featureCounts command)
 
 
+principal_component_analysis_plot = plot generated in R. It is an example for a Principal component analysis plot
+
+
+interproscan.sh = script to run command interproscan.sh to search for specific sequences in the database
+
+
 Rplot-15Jan.pdf = Plot generated in Rstudio, boxplot + violin plot of the read counts per gene (TPM) of each library 
+
+
+Transdecoder.sh = running TransDecoder command to get the protein sequences
 
