@@ -10,7 +10,7 @@
 #SBATCH --error=/scratch/course/2023w300106/arizaaranguren/error/cellranger_count.err
 
 #modules
-module load cellranger
+module load cellranger/7.1.0
 module list
 
 #running cell ranger for alignment
