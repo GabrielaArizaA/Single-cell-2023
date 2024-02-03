@@ -41,3 +41,14 @@ Rplot-15Jan.pdf = Plot generated in Rstudio, boxplot + violin plot of the read c
 
 Transdecoder.sh = running TransDecoder command to get the protein sequences
 
+
+Cellranger_counts.sh =
+
+
+Cellranger_ref.sh =
+
+
+Eggnog.sh =
+
+
+
