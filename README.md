@@ -39,16 +39,16 @@ interproscan.sh = script to run command interproscan.sh to search for specific s
 Rplot-15Jan.pdf = Plot generated in Rstudio, boxplot + violin plot of the read counts per gene (TPM) of each library 
 
 
-Transdecoder.sh = running TransDecoder command to get the protein sequences
+Transdecoder.sh = Running TransDecoder command to get the protein sequences
 
 
-Cellranger_counts.sh =
+Cellranger_ref.sh = Running mkref in cellranger to generate a reference also for the next script (cellranger_count)
 
 
-Cellranger_ref.sh =
+Cellranger_count.sh = To create a matrix where we have the information fo the single cell run like barcoding information
 
 
-Eggnog.sh =
+Eggnog.sh = In this script we ran the script for eggnog which is in conda environment. It is for protein annotations.
 
 
 
